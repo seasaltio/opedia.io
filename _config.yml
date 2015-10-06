@@ -1,0 +1,30 @@
+# Site settings
+title: Opedia
+description: Have an opinion on everything
+baseurl: "http://opedia.io"
+url: "http://opedia.io"
+
+ga_id: "UA-68269524-2"
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+exclude:
+  - '*.haml'
+  - '*.rb'
+  - '*.coffee'
+  - '*.yml'
+  - '.fontcustom-manifest.json'
+  - 'Guardfile'
+  - 'Procfile'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'Readme.md'
+  - 'bower_components'
+  - 'node_modules'
+  - 'gulpfile.js'
+  - 'package.json'
+
+gems:
+  - jekyll-redirect-from
